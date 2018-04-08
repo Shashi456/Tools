@@ -34,6 +34,19 @@ cookies =[
 for cookie in cookies:
     driver.add_cookie(cookie)
 
+# the following lines are for interacting with a table
+# now something to keep in mind is the xpath will always work
+# the only mistake you can do is xpath is defined differently for firefox and chrome 
+# so when trying to interact with an element use the xpath according the WebDriver you are using 
+#x1 = driver.find_element_by_xpath('//*[@id="bottom-area"]/div[2]/div[2]/div/div/div/div/table/tbody[6]/tr[1]/td[5]')
+#x2 = driver.find_element_by_xpath('//*[@id="bottom-area"]/div[2]/div[2]/div')
+#time.sleep(5)
+
+#driver.execute_script('arguments[0].scrollTop = arguments[0].scrollHeight', x2)
+#x1 = x.get_attribute("innerHTML")
+#x2 = x.get_attribute("value")
+#print(x1)
+
 #print(driver.get_cookie())
 
 driver.get('')#after getting cookie
