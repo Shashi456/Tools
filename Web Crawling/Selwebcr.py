@@ -49,6 +49,16 @@ for cookie in cookies:
 
 #print(driver.get_cookie())
 
+#x = driver.find_elements_by_xpath('//*[@id="bottom-area"]/div[2]/div[2]/div/div/div/div/table')
+# fetching the tbody from the table
+#y = x[-1]
+#fetching all rows from the tbody
+#( Question : I dont know why fetching just any tbody fetces all the rows ? )
+# Getting following elements from a table by the given function
+#rows = y.find_elements_by_tag_name("tr")
+#td1 = rows[-2].find_elements_by_tag_name("td")
+
+
 driver.get('')#after getting cookie
 driver.implicitly_wait(900) # different ways of stopping the browser so that the website can load
 WebDriverWait(driver,200)
