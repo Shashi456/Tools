@@ -53,3 +53,17 @@ def acc2v2(a1, a2):
 #than just True or False. This means that if you did False and 1
 #, then you get the first operand (False), but if you do
 #True and 1, then you get the second (1).
+
+
+#The coding constructs like if, elif, else and looping constructs
+# like for and while.A for- loop can only iterate (loop) “over” collections of things. A
+# while- loop can do any kind of iteration (looping) you want.
+
+
+#There are a lot of symbols( Keywords) in python.
+#Like global, assert, yield, lambda etc. Be careful to not name your variables these.
+
+
+#Finally a core part of python is constructs like lists, dictionaries, modules and classes
+#Modules are like packages you can import from.
+#Classes are the tool by which object oriented concepts are implemented in python.
