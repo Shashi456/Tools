@@ -9,3 +9,5 @@
  - [Learn Python the hard way](https://learnpythonthehardway.org/python3)
  - [Automate the Boring stuff with python](https://automatetheboringstuff.com/)
  - [Learn more python the hard way](https://learncodethehardway.org/more-python/)
+
+One of the best places you can look at the pythonic way is codewars.com You can begin with the katas and go through them while looking at the solution. The code on the site represents one of the cleanest ways to write python.
